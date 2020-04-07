@@ -7,7 +7,7 @@ L. Akritidis, P. Bozanis, A. Fevgas, "Supervised Papers Classification on Large-
 
 In contrast to the existing approaches, this method takes into consideration not only the title words and the keywords, but also  the history of the authors, co-authorship information, and the areas of science published by each journal. It was compared against the multi-class classifiers of Spark MLlib, [Logistic Regression](https://spark.apache.org/docs/latest/ml-classification-regression.html#logistic-regression), [Decision Trees](https://spark.apache.org/docs/latest/ml-classification-regression.html#decision-tree-classifier) and [Random Forests](https://spark.apache.org/docs/latest/ml-classification-regression.html#random-forest-classifier) by employing the [Open Academic Graph dataset](https://www.openacademic.ai/oag/).
 
-None of the adversary approaches was able to complete the task in the original dataset. Instead, a dimensionality reduction method such as [Sparse Random Projection](https://github.com/SashiDareddy/RandomProjection).
+None of the adversary approaches was able to complete the task in the original dataset. Instead, a dimensionality reduction method such as [Sparse Random Projection](https://github.com/SashiDareddy/RandomProjection) was necessary to reduce the size of the underlying dimensional space.
 
 The experiments indicated that our approach achieved higher classification accuracy, accompanied by substantially better execution times. Moreover, it was the only method which handled efficiently the huge dimensionality of the dataset, without requiring an additional dimensionality reduction technique.
 
